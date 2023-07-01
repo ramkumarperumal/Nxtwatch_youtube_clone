@@ -145,7 +145,7 @@ class VideoDetailsView extends Component {
               toggleDislikeVideo(videoDetails.id)
             }
 
-            const toggleSaveButton = () => {
+            const toggleSaveButton = a => {
               toggleSavedVideo(videoDetails)
             }
 
